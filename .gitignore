@@ -1,0 +1,48 @@
+
+# Directory-based project format:
+.idea/
+*.iml
+.DS_Store
+
+# File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+/out/
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+# NodeJS modules folder
+node_modules
+
+# debug log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# vs code
+.vscode
+jsconfig.json
+
+# coverage
+/coverage
+
+# dist files
+release.jar
+/dist/
+/markswebb/
+
+# user config
+/app/config/appConfig.js
+.prettierrc
+.cache
+
+# typescript
+*.ts
+*.d.ts
+tsconfig.json
+tslint.json

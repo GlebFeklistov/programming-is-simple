@@ -1,0 +1,46 @@
+{
+	"name": "programming-is-simple",
+	"version": "1.0.0",
+	"description": "Во всяком языке программирования определены способы организации данных и способы организации действий над данными. Несмотря на разнообразие языков программирования, их изучение происходит приблизительно по одной схеме. Это связано с общностью структуры различных языков программирования высокого уровня.",
+	"directories": {
+		"doc": "docs"
+	},
+	"scripts": {
+		"start": "mdx-go src/docs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GlebFeklistov/programming-is-simple.git"
+	},
+	"keywords": [
+		"programming",
+		"learn",
+		"javascript",
+		"js",
+		"c++",
+		"php",
+		"ruby",
+		"c#",
+		"pascal"
+	],
+	"author": "Gleb Feklistov",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/GlebFeklistov/programming-is-simple/issues"
+	},
+	"homepage": "https://github.com/GlebFeklistov/programming-is-simple#readme",
+	"dependencies": {
+		"brace": "^0.11.1",
+		"css-loader": "^0.28.11",
+		"github-markdown-css": "^2.10.0",
+		"grid-styled": "^5.0.2",
+		"js-beautify": "^1.8.9",
+		"mdx-go": "^2.0.0-32",
+		"mdx-themes": "^1.0.0-0",
+		"react-ace": "^6.3.2",
+		"react-ace-editor": "0.0.3",
+		"react-markdown": "^4.0.6",
+		"react-tabs": "^3.0.0",
+		"style-loader": "^0.23.1"
+	}
+}
