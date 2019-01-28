@@ -35,6 +35,6 @@
 		"mdx-go": "^2.0.0-32",
 		"react-markdown": "^4.0.6",
 		"react-tabs": "^3.0.0",
-		"style-loader": "^0.23.1"
+		"style-loader": "^0.23.1",
 	}
 }
