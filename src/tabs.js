@@ -1,30 +1,33 @@
 import React from 'react';
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import ReactMarkdown from 'react-markdown';
-import "react-tabs/style/react-tabs.css";
-import beautify from 'js-beautify';
-import codeBase from './codeBase';
+import 'react-tabs/style/react-tabs.css';
+import examples from './examples';
+import languages from './languages';
 
 const tag = '```';
 const merge = (lang, code) => `${tag}${lang}\n${code}\n${tag}`;
 
+
 export default ({section}) => {
-  if (codeBase[section]) {
+  if (examples[section]) {
+
+    const tabs = [];
+    const panels = [];
+
+    Object.keys(examples[section]).map(lang => {
+      if (languages[lang]) {
+        tabs.push(<Tab key={lang}>{languages[lang]}</Tab>);
+        panels.push(<TabPanel key={lang}>
+          <ReactMarkdown source={merge(lang, examples[section][lang])}/>
+        </TabPanel>);
+      }
+    });
+
     return (
       <Tabs>
-        <TabList>
-          {
-            codeBase[section] && Object.keys(codeBase[section]).map(lang => <Tab key={lang}>{lang}</Tab>)
-          }
-        </TabList>
-        {
-          codeBase[section] && Object.keys(codeBase[section]).map(lang => <TabPanel key={lang}>
-              <ReactMarkdown source={
-                merge(lang, beautify.js(codeBase[section][lang], {indent_size: 2})
-                )}/>
-            </TabPanel>
-          )
-        }
+        <TabList>{tabs}</TabList>
+        {panels}
       </Tabs>
     )
   } else {
