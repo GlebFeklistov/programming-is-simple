@@ -17,10 +17,11 @@ export default ({section}) => {
 
     Object.keys(examples[section]).map(lang => {
       if (languages[lang]) {
-        tabs.push(<Tab key={lang}>{languages[lang]}</Tab>);
+        /*tabs.push(<Tab key={lang}>{languages[lang]}</Tab>);
         panels.push(<TabPanel key={lang}>
           <ReactMarkdown source={merge(lang, examples[section][lang])}/>
-        </TabPanel>);
+        </TabPanel>);*/
+        panels.push(<ReactMarkdown source={merge(lang, examples[section][lang])}/>);
       }
     });
 
