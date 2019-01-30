@@ -8,7 +8,7 @@
 
 GitHub опубликовал собственный рейтинг [15 самых популярных языков программирования](https://octoverse.github.com/projects#languages). Согласно этой статистики были выбраны наиболее востребованные языки программирования в настоящее время:
 
-* JavaScript
+* JavaScript (NodeJS)
 * Java
 * Python
 * Php
