@@ -2,7 +2,6 @@
 
 ### JavaScript
 ```js
-// Prints "Hello World!" in console.
 console.log("Hello World!");
 ```
 
@@ -10,7 +9,6 @@ console.log("Hello World!");
 ```java
 public class HelloWorld {
     public static void main(String[] args) {
-        // Prints "Hello World!" to the terminal window.
         System.out.println("Hello World!");
     }
 }
@@ -52,7 +50,6 @@ namespace HelloWorld
         static void Main() 
         {
             Console.WriteLine("Hello World!");
-            // Keep the console window open in debug mode.
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }
