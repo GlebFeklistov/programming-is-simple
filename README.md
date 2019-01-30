@@ -5,7 +5,9 @@
 ![](/structure.png)
 
 ## Языки программирования
-Языки примеры которых будут приведены в тексте:
+
+Языки примеры которых будут приведены в примерах:
+
 * JavaScript
 * Java
 * Python
@@ -13,6 +15,8 @@
 * C++
 * C#
 * Turbo Pascal
+
+https://octoverse.github.com/projects#languages
 
 ## Элементы языка
 
