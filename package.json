@@ -27,13 +27,5 @@
 	"bugs": {
 		"url": "https://github.com/GlebFeklistov/programming-is-simple/issues"
 	},
-	"homepage": "https://github.com/GlebFeklistov/programming-is-simple#readme",
-	"dependencies": {
-		"css-loader": "^0.28.11",
-		"github-markdown-css": "^2.10.0",
-		"mdx-go": "^2.0.0-32",
-		"react-markdown": "^4.0.6",
-		"react-tabs": "^3.0.0",
-		"style-loader": "^0.23.1"
-	}
+	"homepage": "https://github.com/GlebFeklistov/programming-is-simple#readme"
 }

@@ -1,16 +1,4 @@
-import 'github-markdown-css';
-import { Head } from 'mdx-go';
-import Tabs from '../tabs';
-
-<Head>
-  <title>Programming is simple</title>
-</Head>
-
-
-<div className="markdown-body">
-
 ```csharp
-// Hello1.cs
 public class Hello1
 {
     public static void Main()
@@ -19,8 +7,6 @@ public class Hello1
     }
 }
 ```
-
-<Tabs section="examples"/>
 
 # Программирование с нуля
 
@@ -76,7 +62,6 @@ public class Hello1
 Вышеуказанные четыре операции обязательны для всех структур и типов данных. Помимо этих общих операций для каждой структуры данных могут быть определены операции специфические, работающие только с данными указанного типа.
 
 ### Объявление переменных или констант
-<Tabs section="vars"/>
 
 ### Ввод-вывод данных
 
@@ -84,4 +69,3 @@ public class Hello1
 #### Операции
 #### Выражения и операторы
 #### Подпрограммы
-</div>
