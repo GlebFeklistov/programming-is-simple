@@ -62,4 +62,9 @@ namespace HelloWorld
 
 ### Turbo Pascal
 ```pascal
+program Hello;
+
+begin
+  writeln ('Hello world!')
+end.
 ```
