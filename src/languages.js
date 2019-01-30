@@ -1,9 +1,9 @@
 module.exports = {
   js: 'JavaScript',
-  php: 'PHP',
-  sharp: 'C#',
-  cpp: 'C++',
-  pascal: 'Pascal',
+  java: 'Java',
   python: 'Python',
-  basic: 'Visual Basic'
+  php: 'PHP',
+  cpp: 'C++',
+  sharp: 'C#',
+  pascal: 'Pascal'
 };
