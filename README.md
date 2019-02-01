@@ -138,7 +138,9 @@ const rl = readline.createInterface({
   output: process.stdout,
   prompt: 'OHAI> '
 });
+
 rl.prompt();
+
 rl.on('line', (line) => {
   switch (line.trim()) {
     case 'hello':
