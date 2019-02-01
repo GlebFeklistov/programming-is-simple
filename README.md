@@ -72,7 +72,9 @@ var PI = 3.141592653589793;
 var bool = true;
 var string = 'Hello World!';
 var char = 'z'
-var a; //undefined
+var a;
+
+console.log(a) //undefined
 console.log(x) //reference in null
 ```
 
@@ -84,7 +86,10 @@ console.log(x) //reference in null
 * Массивы: [ 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 ]
 
 ```js
+var myEmptyObject = {};
 var myObject = { x: 10, y: 12 };
+
+var myEmptyArray = [];
 var myArray = [ 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 ];
 ```
 
