@@ -131,32 +131,12 @@ const PI = 3.141592653589793;
 Компьютерные программы получают данные, обрабатывают и выводят данные на экран, в файл, отправляют по сети или в другую программу.
 Следовательно, любой язык программирования должен иметь инструменты как для ввода данных, так и вывода данных.
 
-Рассмотрим пример ввода данных с клавиатуры на примере платформы Node.js:
+Рассмотрим пример вывода данных с клавиатуры на примере платформы Node.js:
 ```js
-const readline = require('readline');
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-  prompt: 'OHAI> '
-});
-
-rl.prompt();
-
-rl.on('line', (line) => {
-  switch (line.trim()) {
-    case 'hello':
-      console.log('world!');
-      break;
-    default:
-      console.log(`Say what? I might have heard '${line.trim()}'`);
-      break;
-  }
-  rl.prompt();
-}).on('close', () => {
-  console.log('Have a great day!');
-  process.exit(0);
-});
+console.log('Hello World!');
 ```
+Данный пример иллюстрирует простой механизм вывода фразы "Hello World!" на экран.
+
 ### Обработка данных
 #### Операции
 #### Выражения и операторы
