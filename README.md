@@ -183,6 +183,7 @@ var a = 'Hello' + 'World!';
 var b = 10 + 5;
 var c = 10 * 5;
 var d = 10 / 5;
+var e = 12 % 5;
 ```
 
 ##### Отношения
@@ -197,10 +198,10 @@ var d = 10 / 5;
 * \>= больше или равно
 
 ```js
-var a = 'Hello' + 'World!';
-var b = 10 + 5;
-var c = 10 * 5;
-var d = 10 / 5;
+var a = 'Hello' == 'World!'; // false
+var b = 10 > 5; // true
+var c = 10 != 5; // true
+var d = 10 <= 5; // false
 ```
 
 ##### Логические
