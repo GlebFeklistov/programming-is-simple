@@ -543,5 +543,3 @@ module.exports.sum = function (a, b) {
 var utils = require('./myFirstModule');
 console.log(utils.sum(5, 8));
 ```
-
-:warning: Данные примеры не могут быть воспроизведены в браузере.
