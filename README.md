@@ -189,7 +189,6 @@ greet('World');
 * Целые числа: 1, 14, 65859565
 * Вещественные числа: 3.141592653589793, 678.45212
 * Логические: true, false
-* Строковые: 'Hello', 'John Doe'
 * Символьные: 'A', 'B', 'C', '9', '♫'
 * Null, undefined, void
 * Указатели
@@ -214,6 +213,8 @@ console.log(x) //reference in null
 Примеры базовых составных типов в разных языках:
 * Объекты: { x: 10, y: 12 }
 * Массивы: [ 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 ]
+* Строковые: 'Hello', 'John Doe'
+* Классы: class MyType {}
 
 Пример объявления переменных составных типов на JavaScript:
 
@@ -223,6 +224,13 @@ var myObject = { x: 10, y: 12 };
 
 var myEmptyArray = [];
 var myArray = [ 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 ];
+
+class MyUser {
+  constructor(name) {
+    this.name = name
+  }
+}
+var user = new MyUser('John Doe');
 ```
 
 ## Действия над данными
