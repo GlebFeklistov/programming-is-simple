@@ -668,3 +668,4 @@ var utils = require('./myFirstModule'); // подключение модуля
 var result = utils.sum(5, 8); // вызов (выполнение) из модуля функции sum с двумя аргументами
 console.log(result); // вывод результата из переменной result
 ```
+
